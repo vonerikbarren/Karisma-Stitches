@@ -18,8 +18,21 @@ export default createMuiTheme({
     },
     background: {
       paper: "white",
-      default: "purple"
+      default: "white",
+    },
+    Typography: {
+      color: "yellow"
     }
+  },
+  Toolbar: {
+    background: "white",
+    default: "lightGrey",
+    color: "green"
+  },
+  AppBar: {
+    background: "white",
+    default: "lightGrey",
+    color: "green"
   },
 
   typography: {
